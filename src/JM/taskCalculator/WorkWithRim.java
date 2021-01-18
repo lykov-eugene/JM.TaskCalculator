@@ -61,7 +61,7 @@ package JM.taskCalculator;
                 }
                 digit = digit + y;
             }
-            System.out.println("Прочтённое число из римских :" + digit);
+            //System.out.println("Прочтённое число из римских :" + digit);
             return digit;
         }
 
