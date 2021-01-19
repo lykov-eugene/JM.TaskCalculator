@@ -33,6 +33,7 @@ public class MainPart {
 
         if (mainRelay == false) {
             WorkWithRim.rimToInteger(item);
+            //System.out.println(result);
             System.out.println(WorkWithRim.integerToRim(result));
         }
     }

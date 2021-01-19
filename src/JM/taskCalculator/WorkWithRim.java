@@ -85,9 +85,10 @@ package JM.taskCalculator;
                 i = i - 50;
             }
 
-            if (i > 39)
+            if (i > 39) {
                 result.append("XL");
                 i = i - 40;
+            }
 
             if (i > 9) {
                 while (i > 9) {
