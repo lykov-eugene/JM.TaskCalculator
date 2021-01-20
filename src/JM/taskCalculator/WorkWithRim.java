@@ -96,11 +96,16 @@ package JM.taskCalculator;
                     i = i - 10;
                 }
             }
+
+            if (i == 9) {
+                result.append("IX");
+                i = i - 9;
+            }
             if (i > 4) {
                 result.append("V");
                 i = i - 5;
-
             }
+
             if (i == 4) {
                 result.append("IV");
                 i = i - 4;
